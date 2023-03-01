@@ -1,0 +1,12 @@
+html{
+    background-color: #130125;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 1280px;
+    color: white;
+}
