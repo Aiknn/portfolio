@@ -10,3 +10,8 @@ html{
     width: 1280px;
     color: white;
 }
+.test{
+    font-family: 'Courier New', arial;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
