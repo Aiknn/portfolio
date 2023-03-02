@@ -64,11 +64,39 @@ section .container{
     font-weight: 700;
     padding: 16px 24px;
     border-radius: 4px;
+    border: none;
 }
 .promo-btn:hover{
     background-color: #FD5A1490;
 }
 
+.about .container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-img{
+    width: 280px;
+    height: auto;
+    border: 4px solid #FD5A14;
+}
+.about-info-list ul{
+    list-style-image: url("./images/like-svgrepo-com.svg");
+}
+.about-info-list ul li{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.about-info-main{
+    font-family: 'Courier New', arial;
+    font-size: 60px;
+    font-weight: 700;
+}
+.about-info-extra p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
 
 
 /* .test{
