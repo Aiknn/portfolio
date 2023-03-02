@@ -15,3 +15,30 @@ html{
     font-family: 'Inter', sans-serif;
     font-family: 'Kanit', sans-serif;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', arial;
+    font-size: 32px;
+    font-weight: 700;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
+    margin-left: 32px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
