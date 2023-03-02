@@ -65,6 +65,9 @@ section .container{
     padding: 16px 24px;
     border-radius: 4px;
 }
+.promo-btn:hover{
+    background-color: #FD5A1490;
+}
 
 
 
