@@ -1,5 +1,5 @@
-html{
-    background-color: #130125;
+html, body{
+    background: #130125 !important;
 }
 *{
     margin: 0;
@@ -9,13 +9,9 @@ html{
     margin: 0 auto;
     width: 1280px;
     color: white;
+    background-color: #130125;
 }
-.test{
-    font-family: 'Courier New', arial;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Kanit', sans-serif;
-}
-header{
+header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,3 +38,38 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+section{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+section .container{
+    margin: 160px auto;
+}
+.promo-title-text-main{
+    font-family: 'Courier New', arial;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+}
+.promo-title-text-extra{
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 0 30px 0;
+}
+.promo-btn{
+    background-color: #FD5A14;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px 24px;
+    border-radius: 4px;
+}
+
+
+
+/* .test{
+    font-family: 'Courier New', arial;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+} */
