@@ -160,6 +160,36 @@ section .container{
     font-size: 20px;
 }
 
+.projects-main-title{
+    font-family: 'Courier New', arial;
+    font-size: 60px;
+    font-weight: 700;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    align-items: center;
+}
+.project-img{
+    width: 626px;
+    height: auto;
+    border: 4px solid #FD5A14;
+}
+.project-detail{
+    width: 500px;
+}
+.project-name{
+    font-family: 'Courier New', arial;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.project-description{
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
 /* .test{
     font-family: 'Courier New', arial;
     font-family: 'Inter', sans-serif;
