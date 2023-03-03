@@ -79,18 +79,34 @@ section .container{
     height: auto;
     border: 4px solid #FD5A14;
 }
+.about-info-list{
+    display: flex;
+}
 .about-info-list ul{
-    list-style-image: url("./images/like-svgrepo-com.svg");
+    list-style: none;
+    padding-left: 0;
+    margin-right: 30px;
+    margin-top: 40px;
+  
 }
 .about-info-list ul li{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 500;
+    margin-top: 10px;
+}
+.about-info-list ul li::before{
+    content: "\2713"; 
+    color: white;  
+    font-weight: bold;
+    padding-right: 10px;
+    font-size: 20px;
 }
 .about-info-main{
     font-family: 'Courier New', arial;
     font-size: 60px;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 .about-info-extra p {
     font-family: 'Kanit', sans-serif;
@@ -98,6 +114,51 @@ section .container{
     font-weight: 300;
 }
 
+.exp-title{
+    font-family: 'Courier New', arial;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+.exp-list-elem{
+    padding-top: 48px;
+    display: flex;
+}
+.exp-list-elem-year{
+    font-family: 'Courier New', arial;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 9px;
+}
+.exp-list-elem-data{
+    padding-left: 30px;
+}
+.exp-list-elem-data ul{
+    list-style: none;
+    padding-left: 0; 
+}
+.exp-list-elem-data ul li{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.exp-list-elem-data .city{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.exp-list-elem-data .info{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.exp-list-elem-data ul li::before{
+    content: "\2713"; 
+    color: #FD5A14;
+    font-weight: bold;
+    padding-right: 10px;
+    font-size: 20px;
+}
 
 /* .test{
     font-family: 'Courier New', arial;
