@@ -20,10 +20,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Experience</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contacts</a></li>
+                    <li><a href="#anchor-about">About</a></li>
+                    <li><a href="#anchor-experience">Experience</a></li>
+                    <li><a href="#anchor-projects">Projects</a></li>
+                    <li><a href="#anchor-contacts">Contacts</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,13 +35,13 @@
                     <p class="promo-title-text-main">Hi, I’m Yerlan, <br/>I build things for the web.</p>
                     <p class="promo-title-text-extra">I’m software developer and this is my portfolio.</p>
                 </div>
-                <button class="promo-btn">
+                <button class="promo-btn" id="cv-btn">
                     Check out my CV
                 </button>
             </div>
         </div>    
     </section>
-    <section class="about">
+    <section class="about" id="anchor-about">
         <div class="container">
             <div class="about-info">
                 <p class="about-info-main">About me</p>
@@ -64,7 +64,7 @@
             <img src="./images/my_photo.jpg" class="about-img" alt="Yerlan's photo"/>  
         </div>
     </section>
-    <section class="experience">
+    <section class="experience" id="anchor-experience">
         <div class="container">
             <p class="exp-title">Experience</p>
             <div class="exp-list">
@@ -109,7 +109,7 @@
             </div>
         </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="anchor-projects">
         <div class="container">
             <p class="projects-main-title">Projects I’ve Worked On</p>
             <div class="project">
@@ -132,7 +132,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="anchor-contacts">
         <div class="container">
             <div class="promo-title">
                 <div class="promo-title-text">
@@ -147,12 +147,16 @@
     </section>
     <footer>
         <div class="container">
-            sd
+            <p class="footer-main-text">Made with ❤️ at nFactorial in 2022.</p>
+            <p class="credits">Credits: photos from <span class="underlined">Unsplash.com</span>, icons from <span class="underlined">Icons8</span>.</p>
         </div>
     </footer>
     <script type="text/javascript">
         document.getElementById("social-btn").onclick = function () {
             location.href = "https://t.me/yerlan_nurlibayev";
+        };
+        document.getElementById("cv-btn").onclick = function () {
+            location.href = "https://aiknn.github.io/portfolio/";
         };
     </script>
 </body>
